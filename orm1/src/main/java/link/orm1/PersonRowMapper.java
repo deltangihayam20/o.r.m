@@ -16,5 +16,4 @@ public class PersonRowMapper implements RowMapper<Person>{
         p.email = resultSet.getString("email");
         return p;
     }
-
 }
